@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Chat Styles */
+#username-container {
+    text-align: center;
+}
+
+#chat-container {
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Message Styles */
+#chat-box div {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    max-width: 80%;
+    clear: both;
+}
+
+#chat-box div.me {
+    background-color: #2C5F2D;
+    color: white;
+    text-align: right;
+    float: right;
+}
+
+#chat-box div.other {
+    background-color: #97BC62;
+    color: black;
+    text-align: left;
+    float: left;
+}
+
+/* Input Styles */
+#message-input {
+    width: calc(100% - 70px);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#send-button {
+    padding: 10px;
+    background: #2C5F2D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background: #1e4d1e;
+}
+
+/* Login and Register Pages */
+#login-container, #register-container {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background: #2C5F2D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e4d1e;
+}
+
+p a {
+    color: #2C5F2D;
+}
